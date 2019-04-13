@@ -1,6 +1,16 @@
 # frontend-interview-prep
 
-Personal collection of frontend-interview-prep question from bread-and-butter to state-of-the-art.
+Personal compilation and exercises of frontend-interview-prep question from bread-and-butter to state-of-the-art.
+
+#### Process optimization:
+
+- **McMaster University + UCSD's**: Learning how to learn https://www.coursera.org/learn/learning-how-to-learn
+
+#### Tips from other Engineers
+
+- **[JomaTech Youtube]** [Interviewing at Google, Uber, Snap and Negotiating to a \$300k Job Offer](https://www.youtube.com/watch?v=0CxSvqyEjNE)
+- [Reddit article from FT Software Engineer @Uber](https://www.reddit.com/r/cscareerquestions/comments/b3w1gg/2_year_update_my_journey_tips_29_gpa_at_a_small/)
+  - Great article with indepth insights that highlights and pinpoints important aspects of the hiring process.
 
 #### Interview Preparation:
 
