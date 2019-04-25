@@ -38,6 +38,7 @@ Resource compilation of Frontend Interview Preparation questions from the bread-
 
 #### **[Data Structures and Algorithms]**
 
+- Udacity Course - Data Structure & Algorithm in Python [https://classroom.udacity.com/courses/ud513]
 - Data Structures and Algorithms [http://lib.mdp.ac.id/ebook/Karya%20Umum/Dsa.pdf]
 - 500 Data Structures and Algorithms [https://techiedelight.quora.com/500-Data-Structures-and-Algorithms-practice-problems-and-their-solutions?share=1&utm_medium=email&utm_source=hackernewsletter&utm_term=code]
 - Top 10 Algos in Interview Questions [http://www.geeksforgeeks.org/top-10-algorithms-in-interview-questions/]
