@@ -36,6 +36,15 @@ Resource compilation of Frontend Interview Preparation questions from the bread-
 - LeetCode [https://leetcode.com/]
 - Practice coding in a Google Doc [https://www.quora.com/What-are-some-tips-for-practicing-coding-on-google-docs-for-a-phone-screen]
 
+####**[Blog]**
+
+- [five-essential-phone-screen-questions](https://sites.google.com/site/steveyegge2/five-essential-phone-screen-questions)
+
+####**[Github Repository]**
+
+- [The Coding Interview](https://github.com/mre/the-coding-interview)
+- [HTML5 Boilerplate Interview Questions](https://github.com/h5bp/Front-end-Developer-Interview-Questions)
+
 #### **[Data Structures and Algorithms]**
 
 - Udacity Course - Data Structure & Algorithm in Python [https://classroom.udacity.com/courses/ud513]
@@ -60,3 +69,8 @@ Resource compilation of Frontend Interview Preparation questions from the bread-
 
 Another helpful link on how to prepare over the next few weeks:
 https://www.quora.com/How-should-I-prepare-for-my-Google-interview-if-I-have-1-month-left-and-I%E2%80%99m-applying-for-a-software-engineer-role
+
+#### **[Attributions]**
+
+- Udacity [https://www.udacity.com/course/intro-to-algorithms--cs215]
+- Google Interview Prep
