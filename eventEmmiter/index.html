@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>title</title>
+</head>
+
+<body>
+  Event Emitter
+  <script>
+    var EventEmitter = function () {
+      this.events = {}
+    };
+
+    EventEmitter.prototype.on = function (event, listener) {
+      if (typeof this.events[event] !== 'object') {
+        this.events[event] = [];
+      }
+
+      this.events[event].push(listener);
+    }
+
+    EventEmitter.prototype.emit = function (event) {
+      var i, listeners, length, args = [].slice.call(arguments, 1);
+
+      if (typeof this.events[event] === 'object') {
+        listeners = this.events[event].slice();
+        length = listeners.length;
+
+        for (i = 0; i < length; i++) {
+          listeners[i].apply(this, args);
+        }
+      }
+    }
+
+    EventEmitter.prototype.off = function (event) {
+      if (typeof this.events[event] === 'object') {
+        this.events.slice(this.events.indexOf(event), this.events.indexOf(event) + 1);
+      }
+    }
+
+    function responseToEvent(msg) {
+      console.log(msg);
+    }
+
+    function responseToEvent2(msg) {
+      console.log("Hello: " + msg);
+    }
+
+    var emitter = new EventEmitter();
+    emitter.on('pramp', responseToEvent);
+    emitter.on('pramp', responseToEvent2);
+    emitter.emit('pramp', '1st');
+    emitter.off('pramp');
+    emitter.emit('pramp', '2nd');
+  </script>
+</body>
+
+</html>
